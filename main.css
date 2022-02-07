@@ -92,6 +92,20 @@ button {
     height: 48px;
 }
 
+/* Make anchor tag look like button */
+.btn {
+  appearance: auto;
+  background-color: rgb(214, 211, 211);
+  margin-top: 96px;
+  padding: 10px 27.59px;
+  text-decoration: none;
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: outset;
+  border-color: rgb(118,118,118);
+
+}
+
 /* footer */
 footer {
     background-color: #ebebeb;

@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  margin-top: 72px;
+}
+
+.flex-container {
+  display: flex;
+  margin-bottom: 80px;
+  height: 400px;
+}
+
+/* Fonts */
+html,
+body {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* basic styles */
+h1,
+h2 {
+  font-family: "Abril Fatface", cursive;
+}
+
+h1 {
+  font-size: 48px;
+}
+h2 {
+  font-size: 40px;
+}
+
+.pd-right {
+    padding-right: 24px;
+}
+.pd-left {
+    padding-left: 24px;
+}
+
+/* Styles for the Header and Nav */
+header {
+  width: 100%;
+  height: 768px;
+  background-image: url(assets/images/brewery-goal-01.jpg);
+  background-size: contain;
+  overflow-y: hidden;
+}
+
+nav {
+    background-color: white;
+  text-align: center;
+  padding-top: 24px;
+  height: 80px;
+}
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.menu li a {
+    padding: 15px;
+}
+.current {
+    font-weight: bold;
+}
+
+
+.intro {
+  text-align: center;
+  padding-top: 10%;
+  background-color: rgba(240, 248, 255, 0.534);
+  height: 100%;
+}
+.intro h1 {
+  font-size: 72px;
+}
+
+/* Styles for the main section */
+
+.description img {
+    height: 400px;
+}
+
+button {
+    margin-top: 96px;
+    width: 144px;
+    height: 48px;
+}
+
+/* footer */
+footer {
+    background-color: #ebebeb;
+    padding-left: 160px;
+    padding-top: 24px;
+    height: 80px;
+}
+

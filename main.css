@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 .container {
   width: 80%;
   margin: auto;
@@ -37,10 +36,14 @@ h2 {
 }
 
 .pd-right {
-    padding-right: 24px;
+  padding-right: 24px;
 }
 .pd-left {
-    padding-left: 24px;
+  padding-left: 24px;
+}
+
+.menu li a:hover {
+  color: #4eabf5;
 }
 
 /* Styles for the Header and Nav */
@@ -55,30 +58,30 @@ header {
 }
 
 nav {
-  background-color: white;
+  background-color: #ffffff;
   text-align: center;
   padding-top: 24px;
   height: 80px;
 }
 .menu {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
 }
 .menu li a {
-    padding: 15px;
-    text-decoration: none;
+  padding: 15px;
+  text-decoration: none;
+  color: #3e79a8;
 }
 #current {
-    font-weight: bold;
-    text-decoration: underline;
+  font-weight: bold;
+  text-decoration: underline;
 }
-
 
 .intro {
   text-align: center;
   padding-top: 10%;
-  background-color: rgba(240, 248, 255, 0.534);
+  background-color: #f0f8ff88;
   height: 100%;
 }
 .intro h1 {
@@ -93,36 +96,40 @@ nav {
 }
 
 button {
-    margin-top: 96px;
-    width: 144px;
-    height: 48px;
+  margin-top: 96px;
+  width: 144px;
+  height: 48px;
 }
 
 /* Make anchor tag look like button */
 .btn {
   appearance: auto;
-  background-color: rgb(214, 211, 211);
+  background-color: #a83a36;
   margin-top: 96px;
   padding: 10px 27.59px;
   text-decoration: none;
   box-sizing: border-box;
   border-width: 1px;
   border-style: outset;
-  border-color: rgb(118,118,118);
+  border-color: #000000;
+  color: #ffffff;
+}
 
+.btn:hover {
+  background-color: #f56c68;
 }
 
 /* footer */
 footer {
-    background-color: #ebebeb;
-    padding-left: 160px;
-    padding-top: 24px;
-    height: 80px;
+  background-color: #3e79a8;
+  padding-left: 160px;
+  padding-top: 24px;
+  height: 80px;
+  color: #f1f57f;
 }
 
-
 @media screen and (max-width: 700px) {
-  .flex-container {   
+  .flex-container {
     flex-direction: column-reverse;
   }
 

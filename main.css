@@ -1,7 +1,9 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
+
 
 .container {
   width: 80%;
@@ -12,7 +14,6 @@
 .flex-container {
   display: flex;
   margin-bottom: 80px;
-  height: 400px;
 }
 
 /* Fonts */
@@ -47,12 +48,14 @@ header {
   width: 100%;
   height: 768px;
   background-image: url(assets/images/brewery-goal-01.jpg);
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
   overflow-y: hidden;
+  border: 2px solid red;
 }
 
 nav {
-    background-color: white;
+  background-color: white;
   text-align: center;
   padding-top: 24px;
   height: 80px;
@@ -82,8 +85,9 @@ nav {
 
 /* Styles for the main section */
 
-.description img {
-    height: 400px;
+.description-img {
+  width: 300px;
+  max-width: 100%;
 }
 
 button {
@@ -114,3 +118,16 @@ footer {
     height: 80px;
 }
 
+
+@media screen and (max-width: 700px) {
+  .flex-container {   
+    flex-direction: column-reverse;
+  }
+
+  #reverse-img-direction {
+    flex-direction: column;
+  }
+  footer {
+    padding-left: 24px;
+  }
+}

@@ -100,7 +100,6 @@ nav {
 }
 
 button {
-  margin-top: 80px;
   width: 144px;
   height: 48px;
 }
@@ -109,7 +108,7 @@ button {
 .btn {
   appearance: auto;
   background-color: #a83a36;
-  margin-top: 96px;
+  margin-top: 80px;
   padding: 10px 27.59px;
   text-decoration: none;
   box-sizing: border-box;

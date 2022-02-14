@@ -35,6 +35,10 @@ h2 {
   font-size: 40px;
 }
 
+p {
+  margin-bottom: 16px;
+}
+
 .pd-right {
   padding-right: 24px;
 }
@@ -96,7 +100,7 @@ nav {
 }
 
 button {
-  margin-top: 96px;
+  margin-top: 80px;
   width: 144px;
   height: 48px;
 }

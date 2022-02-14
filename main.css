@@ -50,8 +50,8 @@ header {
   background-image: url(assets/images/brewery-goal-01.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   overflow-y: hidden;
-  border: 2px solid red;
 }
 
 nav {
@@ -67,9 +67,11 @@ nav {
 }
 .menu li a {
     padding: 15px;
+    text-decoration: none;
 }
-.current {
+#current {
     font-weight: bold;
+    text-decoration: underline;
 }
 
 

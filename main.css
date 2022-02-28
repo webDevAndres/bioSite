@@ -142,6 +142,10 @@ footer {
     width: auto;
   }
 
+  .btn {
+    margin-top: auto;
+  }
+
   #reverse-img-direction {
     flex-direction: column;
   }

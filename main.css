@@ -63,6 +63,7 @@ header {
 
 nav {
   background-color: #ffffff;
+  font-size: 18px;
   text-align: center;
   padding-top: 24px;
   height: 80px;
@@ -134,6 +135,11 @@ footer {
 @media screen and (max-width: 700px) {
   .flex-container {
     flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .description-img {
+    width: auto;
   }
 
   #reverse-img-direction {

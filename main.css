@@ -130,6 +130,7 @@ footer {
   padding-top: 24px;
   height: 80px;
   color: #f1f57f;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 700px) {

@@ -61,10 +61,6 @@ header {
   overflow-y: hidden;
 }
 
-header p {
-  text-shadow: 1px 1px 1px #000000;
-}
-
 nav {
   background-color: #ffffff;
   font-size: 18px;
@@ -95,6 +91,10 @@ nav {
 }
 .intro h1 {
   font-size: 72px;
+}
+
+.intro p {
+  text-shadow: 1px 1px 1px #000000;
 }
 
 /* Styles for the main section */

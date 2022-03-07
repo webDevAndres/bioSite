@@ -61,6 +61,10 @@ header {
   overflow-y: hidden;
 }
 
+header p {
+  text-shadow: 1px 1px 1px #000000;
+}
+
 nav {
   background-color: #ffffff;
   font-size: 18px;
